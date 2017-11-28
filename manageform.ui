@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ManageForm</class>
+ <widget class="QWidget" name="ManageForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>380</height>
+   </rect>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::NoFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>花样管理</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>250</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>0</y>
+     <width>20</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>170</y>
+     <width>250</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="SelectPlugin" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>51</y>
+     <width>150</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="SelectPlugin" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>74</y>
+     <width>150</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="SelectPlugin" name="widget_3" native="true">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>97</y>
+     <width>150</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="SelectPlugin" name="widget_4" native="true">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>120</y>
+     <width>150</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="SelectPlugin" name="widget_5" native="true">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>143</y>
+     <width>150</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="PaintArea" name="widget_6" native="true">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>5</y>
+     <width>370</width>
+     <height>370</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>SelectPlugin</class>
+   <extends>QWidget</extends>
+   <header location="global">selectplugin.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>PaintArea</class>
+   <extends>QWidget</extends>
+   <header location="global">paintarea.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
